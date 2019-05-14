@@ -195,7 +195,7 @@ if len(sys.argv) > 1: # Capture Sys.Argv
         sys.exit(1)
     elif str(tree[0]) in ['-g','--generate']: # Takes 3 Inputs Pluts *ARGS
         if len(tree) < 4: # Verify Length
-            print(str('(sInvalid Command String Sent alpha_set 9999 5'))
+            print('Invalid Command String Sent alpha_set 9999 5')
             sys.exit(1)
         alpha = tree[1]
         maxch = tree[2]
