@@ -2,3 +2,11 @@
 /:: Generates Galaxy As 'Example'
 -::Example:-0x0:-0000x0000::g-vs::True||
 /:: Writes A Variable To A BiT
+-::Example:-0x0:-0000x0000::g-sl::Boolean1||
+/:: Generates Internal Sym Link Ties Location To Name 'Boolean1'
+-::Example:-0x0:-0000x0001::g-vs::False||-::Example:-0x0:-0000x0001:-g-sl::Boolean2||
+/:: Sames As Generaton On Boolean1 But For 'Boolean 2' In One Chain
+-::Example:-0x0:-0001x0000::l-bl::Example:-Boolean 1::Example:-Boolean2||
+/:: Generates Boolean Logic On Boolean1 And Boolean2
+-::Example:-0x0:-0001x0000::t-b::Example:-0x0:-0001x0001||
+/:: Triggers The BiT And Sends Output To Example 0x0 0001x0001
