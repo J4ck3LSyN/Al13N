@@ -1,0 +1,14 @@
++::Example::Null||
+/:: Generates Galaxy As 'Example'||
+-::Example:-0x0:-0000x0000::g-vs::True||-::Example:-0x0:-0000x0001::g-vs::Example||
+-::Example:-0x0:-0000x0010::g-vs::1234||-::Example:-0x0:-0000x0100::g-va::Example:-0x0:-0000x0000::Example:-0x0:-0000x0001||
+-::Example:-0x0:-0000x1000::g-vs::1,2||
+/:: Writes A Variable (Boolean)  To A BiT   @ Example 0x0 0000x0000||
+/:: Writes A Variable (Strings)  To A BiT   @ Example 0x0 0000x0001||
+/:: Writes A Variable (Integer)  To A BiT   @ Example 0x0 0000x0010||
+/:: Writes A Variable (Location) To A BiT   @ Example 0x0 0000x0100||
+/:: Writes A Variable (List)     To A BiT   @ Example 0x0 0000x1000||
+-::Example:-0x0:-0000x0000::s-l::Boolean_Example||-::Example:-0x0:-0000x0001::s-l::String_Example||-::Example:-0x0:-0010::s-l::Integer_Example||
+-::Example:-0x0:-0000x0100::s-l::Location_Example||-::Example:-0x0:-0000x1000::s-l::List_Example||
+/:: Writes A Symbolic Link to All Created Variables All Items Call Be Called With||
+-::Example:-Boolean_Example::t-b::null||
