@@ -1,0 +1,5 @@
+import Al13N350;Brain=Al13N350.Brain.Registry( (3,4,5,6,6,7,8,9),(3,4,5,6,6,7,8,9) )
+Brain.new('test',0xff);Brain.MountOpKey('0000',Al13N350.Modules.AlienNeuro.Operate,[3,4,5])
+Brain.write('0000','test','0001',['i','s','+',10,10])
+Brain.write('0000','test','0002',['i','s','+','~0001',20])
+print(Brain.execute('test','0002'))

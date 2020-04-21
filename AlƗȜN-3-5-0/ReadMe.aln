@@ -1,0 +1,40 @@
+` If You Are Here You Should Probaly Run "python3 Al13N.py e read ReadMe.aln" To Execute The Information Within...
+dev-seed->setup-builtin->+ J4ck3lSyN-DeveloperRegister fff
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) @/br@/fwGenerating@/b0: Seed ( @/bg15eb5ee84c@/b0 )->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) Author : @/brJ@/by4@/brck@/bg3@/brL@/bbS@/bgy@/bbN@/b0->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) Version: @/fr3@/fw.@/fg5@/fw.@/fg0@/fw->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) -------------------------------------------------------- ->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) Usage: ->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) "@/frpython3 @/fwAl13N.py@/fg d f b t e .....@/fw"->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) "@/frd D debug Debug@/fw"   @/fg=@/fr>@/fw Debugging Flag->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) "@/frf F fail Fail@/fw"     @/fg=@/fr>@/fw Fail-Safe Flag->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) "@/frt T termux Termux@/fw" @/fg=@/fr>@/fw Termux Flag(@/fbSmall@/fw Display)->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) "@/frb B banner Banner@/fb ARG@/fw" @/fg=@/fr>@/fw Banner Flag Takes @/fb1@/fw Arg->001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) @/fy^@/fw Banner Must Be Existing Banner ID->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) "@/fre E execute Execute @/br@/fw...@/b0@/fw" @/fg=@/fr>@/fr ALL FOLLOWING @/bbARGS@/b0 ARE TAKEN->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) @/fy^@/fw python3 Al13N.py e [@/frINTERPTETER-COMMAND@/fw]->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) -------------------------------------------------------- ->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) Once Executed You Will See A Banner And A Prompt->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) Here You Can Use Several Commands...->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) Everything Is Based Off Current Mode 0:0 1:0 1:1->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) @/frALL@/fw Commands Can Be Seperated Via "- >"->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) @/frALL@/fw Modes Can Be Decrimented Via "q"->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] h H help Help HELP @/fg=@/fr>@/fw Displays Help Message->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] @/fy^@/fw Takes @/fb1@/fw Arg As Index Command->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] s S set Set SET     @/fg=@/fr>@/fw Configures Internal Objects->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] @/fy^@/fw d         @/fg=@/fr>@/fw Debugging->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] @/fy^@/fw f         @/fg=@/fr>@/fw Fail-Safe->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] $ shell Shell SHELL @/fg=@/fr>@/fw Shell-Interpreter->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] + 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] @/fy^@/fw Generates A Seed Based Off @/fb16@/fw Hex Values->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] cwd,twd             @/fg=@/fr>@/fw Current Directory Information->0001->
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [0:0] dev-seed            @/fg=@/fr>@/fw Genertes A Seed Based Off Builtin Values->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [1:0] h H help Help HELP  @/fg=@/fr>@/fw Display Help Information Refer To 0:0->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [1:0] r R regs Regs REGS  @/fg=@/fr>@/fw Current Register Information->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [1:0] @/fy^@/fw Displays A Registers Values If Sent With ARG->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [1:0] k K key Key KEY     @/fg=@/fr>@/fw Displays Current key->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [1:0] c C cof Cof COF     @/fg=@/fr>@/fw Displays Current Character Offset Key->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [1:0] i I info Info INFO  @/fg=@/fr>@/fw Displays Information->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [1:0] + ID 00             @/fg=@/fr>@/fw Generates A Register With 00 Values As Hex->0001->e
+ttd @/sb@/fg(@/fwAl@/fg13@/fwN 3.5.0@/fg) @/sn@/fw(@/fgReadMe.aln@/b0) [1:0] (REGISTERID)        @/fg=@/fr>@/fw Mounts A Register Back Into Interpreter->0001->e
+q->q->q

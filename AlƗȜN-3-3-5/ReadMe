@@ -1,0 +1,175 @@
+<<ReadMe@0.0>>
+==============================================================================================
+                                Author :: J4ck3LSyN
+                               Version ::   3.3.5
+==============================================================================================
+<<ReadMe@0.1>>
+==============================================================================================
+> Contents:
+- Al13N_UI.py
+- Al13N_330/
+-- __init__
+-- Exceptions
+-- Graphical
+-- HookS
+-- Main
+-- ReadMe.txt
+-- RooTUniverse
+-- VirtualPath
+-- DoC/
+-- OuT/
+==============================================================================================
+<<ReadMe@0.2>>
+==============================================================================================
+Pythonic Execution(Python3):
+>> import Al13N_330
+UserInterface Execution:
+.../python3 Al13N_UI.py [ARGS] (See 0x3)
+==============================================================================================
+<<ReadMe@0.3>>
+==============================================================================================
+UserInterface Arguments:
+-- -i  (No Interpreter)
+->    Run Everything In A Tempory Interpreter And Exit
+-- -fs (No FailSafe   )
+->    Run Everything In A NonFailSafe Manor, UnRecommended Due To Easy Exceptions
+-- -fl (Execute File  )
+->    Execute A File Takes A Arugument Via = (-fl=<PathToFile>)
+-- -c  (Execute String)
+->    Execute A Command Takes A Arugment Via = (-c=<StringToExecute>)
+-- -rm (Chapter ReadMe)
+->    View The ReadMe File Takes 1 Argument Via = (-fm=*/chapter)
+-- -ef (Encode File   )
+->    Encode A File Takes 1 Arguemnt With Seperators Via = (-ef=FILE::SEPERATOR::HEX::OUTPUT)
+-- ef  (Decode File   )
+->    Decode A File Takes 1 Arugment With Seperators Via = (-df=FILE::SEPERATOR::HEX::OUTPUT)
+==============================================================================================
+<<ReadMe@0.4>>
+==============================================================================================
+Table Of Contents:
+{F.G}-- {F.B}0.0 -> Title
+{F.G}-- {F.B}0.1 -> File Contents
+{F.G}-- {F.B}0.2 -> Execution
+{F.G}-- {F.B}0.3 -> UI Arugments
+{F.G}-- {F.B}0.4 -> Table Of Contents
+{F.G}-- {F.B}0.5 -> NULL
+{F.G}-- {F.B}1.0 -> How To Write In Al13N 2.5.0/3.3.0
+{F.G}-- {F.B}1.1 -> How The Memory Structure Works
+{F.G}-- {F.B}1.2 -> What Are Galaxies,Dimensions,Systems And Pages
+{F.G}-- {F.B}1.3 -> How To Generate A Galaxy
+{F.G}-- {F.B}1.4 -> How To Write To A System
+{F.G}-- {F.B}1.5 -> How To Execute A System
+{F.G}-- {F.B}2.0 -> Woring With Al13N Inside Of python3
+==============================================================================================
+<<ReadMe@0.5>>
+==============================================================================================
+<<ReadMe@1.0>>
+==============================================================================================
+How To Write In Al13N 2.5.0/3.3.0
+Al13N Chain Based Operations:
+-- New Lines And Tabs Are Nullified Using Al13N Instead A New Command Is Found With '||'
+-- Spaces Are Also Nullified Instead A Command Separation Is Found With '::'.
+-- Example:
+->   ROOT::Galaxy:-Dimension:-System::Action::Input||...
+-- Locations Are Entered Via ':-' These Are Either Symbolic Or Full Locations, See 1.1
+-- For More Information.
+-- Al13N Command Structures Are Based Off 3 3 Parts:
+->   ROOT::LOCATION::ACTION::INPUT||...||...
+-- Roots Are Used For Signalling What You Wish To Be Done All Following Inputs Will Correspond.
+*-  '+'
+->   Takes 2 Following Arguments, For Generating A New Galaxy
+->  +::ID::null/IO||
+->  R Name Default/IO
+->   IO If Null Will Default To Internal Configuration Else 5 Inputs Are Needed Seperated
+->   Via ','
+->  +::ID::null||
+->  +::ID::Low,High,Pad,Type,Displace
+->   Low Being The Dimension Low Range.
+->   High Being The High Range.
+->    (0,6) 0,1,2,3,4,5 Dimensions
+->   Pad Being The Padding For The Dimensions
+->    (0,6)(2) 0x0ff 0x1ff 0x2ff 0x3ff 0x4ff 0x5ff
+->   Type Being The Type Of Encoding
+->    (0,6)(0)(h) 0x0
+->    (0,6)(0)(b) 0b0
+->   Displacement Is Applied Post Generation Through Multiplier
+->    (0,6)(0)(h)(2) 0x0 0x2 0x4 0x6 0x8 0x10
+*-  '>'
+->   Takes 3 Following Arguments, For Writing To Generated Galaxies
+->  >::Galaxy:-Dimenson:-System::Action::IO||
+->  R          Location           Exe    IO
+->   IO Is Given Based Off Called Action, IO Can Also Take The Values Of Locations Via
+->   %Galaxy:-Dimension:-System
+->   Lists Can Be Caught By Seperating Via '/'
+->   1/2 = [1,2]
+==============================================================================================
+<<ReadMe@1.1>>
+==============================================================================================
+How The Memory Structure Works
+-- Everything Is Stored Inside Of A Dictionary Located @ Al13N_335.RooTUniverse().Universe
+-- This Object Contains 3 Entities:
+-> ('Main')
+--   Used For Storage Of Main Memory Items, This Is Raw And Doesnt Contain Anything But
+--   The Al13N Structure:
+--     Universe['Main'] = {
+--        'Galaxy':{
+--            'BiT':{
+--               'System':[],
+--                ...
+--             },
+--            'BiT':{
+--               'System':[],
+--               ...
+--             }
+--         }
+--     }
+-> ('Syml')
+--   Used For Sybolic Links, Everything Here Points ASCII Connections To Main
+-> ('Conf')
+--   This Entity Contains 7 Static Entities That Control Generation Inside Of Main
+--   Universe['Conf']['Min'] : int()
+--     This Is The Minimal Range For Generation On BiTs
+--   Universe['Conf']['Max'] : int()
+--     This Is A Maximum Range For Generation On BiTs (Min<Max)
+--   Universe['Conf']['Pad'] : int()
+--     This Is For Padding Onto The Bits For Generation
+--   Universe['Conf']['Hex'] : str()
+--     This Is The hex() Padding
+--   Universe['Conf']['Bin'] : str()
+--     This Is The bin() Padding
+--   Universe['Conf']['TyP'] : str()
+--     This Is The Type To Use 'h' Being hex() And 'b' Being bin()
+--   Universe['Conf']['DiS'] : int()
+--     This Is For Displacing The BiTs Via GeneratedBit**DiS
+*-   Generation Is Handled With This Algorithm:
+--    Min(0),Max(5),Pad(3),TyP('h'),DiS(3):
+--    +::Example::0,5,3,h,3||
+--      0x0fff
+--      0x3fff
+--      0x6fff
+==============================================================================================
+<<ReadMe@1.2>>
+==============================================================================================
+What Are Galaxies,Dimensions,Systems And Pages
+-> Everything Is Stored In A Stack Manner:
+--   Galaxy ->
+--            BiT ->
+--                  System ->
+--                           Page
+==============================================================================================
+<<ReadMe@1.3>>
+==============================================================================================
+How To Generate A Galaxy
+==============================================================================================
+<<ReadMe@1.4>>
+==============================================================================================
+How To Write To A System
+==============================================================================================
+<<ReadMe@1.5>>
+==============================================================================================
+How To Execute A System
+==============================================================================================
+<<ReadMe@2.0>>
+==============================================================================================
+Working With Al13N Inside Of python3
+==============================================================================================
