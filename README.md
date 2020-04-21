@@ -203,3 +203,7 @@ Yb,_,dP       `8b,,d8b,_      88        Y8,
 (Al13N 3.5.0) (USAGE) > 1:1|if -> We Will NULL Out Else We Will Execute As Segment
 (Al13N 3.5.0) (USAGE) > 1:1|if -> SEGMENTS Are Executed...
 ```
+* __h STR__ Will Identify Any Matching Help Querys
+* *Levels* Are Identified Via int:int `0:0` Being The Lowest And `1:1` Being The Highest
+* Depending On The Commands *Level* Will Operate On That Level
+* __How Ever All Levels Can Be Decrimented Via__:`q`
