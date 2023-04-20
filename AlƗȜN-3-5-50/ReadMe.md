@@ -4,9 +4,6 @@
 #### Index:
 
 1. [Description](#Description)
-2. [Interpreter](#Interpreter)
-3. [Syntax](#Syntax)
-4. [Signal Calls](#Signal-Calls)
 
 # Description
 Alien is a dynamic tool to assist in general programming automation and cyber CyberSecurity Operations.
@@ -14,20 +11,62 @@ Alien is a dynamic tool to assist in general programming automation and cyber Cy
 ## Requirements
 Python Module: `colorama` Install Via `pip3 install colorama`   
 
-# Interpreter
+### Usage (help)
+DATE: Apr, 20, 2023 (Last-Updated)
+```python
+'''
+(Command)  -h,--help
+         (InLine) Displays This Help Message
 
-## Commands:
+         * Can Take 1 Argument As Query
+         `-h:Message`
+         ^ Will Display Every String Containing The String "Message"
+ ****************************************************************************************************
+(Command)  -lS,--logStatus
+         (InLine) Flips Current Log Status
+ ****************************************************************************************************
+(Command)  -vS,--verStatus
+         (InLine) Flips Current Verbose Status
+ ****************************************************************************************************
+(Command)  -vD,--verDebug
+         (InLine) Flips Current Debug Status
+ ****************************************************************************************************
+(Command)  -dLOE,--dumpLogOnExit
+         (InLine) Flips Current dumpLogOnExit Status
+ ****************************************************************************************************
+(Command)  -dROE,--dumpRegistryOnExit
+         (InLine) Flips Current dumpRegistryOnExit Status
+ ****************************************************************************************************
+(Command)  -cF,--configConfigFile
+         (InLine) Takes 1 Input And Will OverRide: -lS -vS -vD
+ ****************************************************************************************************
+(Command)  -sI,--startInterpreter
+         (InLine) Starts Alien.interpreter()
+ ****************************************************************************************************
+(Command)  -eI,--executeInterpreter
+         (InLine) Takes 1 Input In "" And Will Execute
 
-### 0xfffa0 (Terminate)
-Terminates the interpreter
-`0xfffa0 1048480 terminate Terminate TERMINATE`
+         [NOTE: If "-sI" Is Active It Will Execute Prior]
+ ****************************************************************************************************
+(Command)  -sF.--startFresh
+         (InLine) If True Than All Files In "logs/" And "output/" Will Be Removed
+ ****************************************************************************************************
+(Command)  -cR,--configReset
+         (InLine) If True Than src/alien.json Will Be Confgured Based Off Current Configuration
+ ****************************************************************************************************
+(Command)  0xfffa0,terminate,Terminate,TERMINATE,1048480
+         (Interpreter) Terminates The Script
+ ****************************************************************************************************
+(Command)  0xfffb0,usage,Usage,USAGE,1048496
+         (Interpreter) Displays Usage
+ ****************************************************************************************************
+(Command)  0xfffb1,displayRegistry,DisplayRegistry,DISPLAYREGISTRY,1048497
+         (Interpreter) Displays All Registy Entries
 
-### 0xfffb0 (Usage)
-Displays Help Usage
-`0xfffb0 104898 usage Usage USAGE`
-
-Can take a argument to act as query for internal Alien.config['usageDict']
-`0xfffb0 query`
+         Can Take 1 Input For Location Inside Of Register
+ ****************************************************************************************************
+'''
+```
 
 # Syntax
 
