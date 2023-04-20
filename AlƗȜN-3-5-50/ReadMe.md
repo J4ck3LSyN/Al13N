@@ -4,8 +4,9 @@
 #### Index:
 
 1. [Description](#Description)
-2. [Syntax](#Syntax)
-3. [Signal Calls](#Signal-Calls)
+2. [Interpreter](#Interpreter)
+3. [Syntax](#Syntax)
+4. [Signal Calls](#Signal-Calls)
 
 # Description
 Alien is a dynamic tool to assist in general programming automation and cyber CyberSecurity Operations.
@@ -13,6 +14,20 @@ Alien is a dynamic tool to assist in general programming automation and cyber Cy
 ## Requirements
 Python Module: `colorama` Install Via `pip3 install colorama`   
 
+# Interpreter
+
+## Commands:
+
+### 0xfffa0 (Terminate)
+Terminates the interpreter
+`0xfffa0 1048480 terminate Terminate TERMINATE`
+
+### 0xfffb0 (Usage)
+Displays Help Usage
+`0xfffb0 104898 usage Usage USAGE`
+
+Can take a argument to act as query for internal Alien.config['usageDict']
+`0xfffb0 query`
 
 # Syntax
 

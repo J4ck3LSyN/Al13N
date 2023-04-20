@@ -1,0 +1,123 @@
+{
+  "alienConfig": {
+    "verboseStatus": true,
+    "loggingStatus": true,
+    "loggingOutPath": "output.log",
+    "dumpLogOnExit": true,
+    "dumpRegistryOnExit": true,
+    "interpreterFailSafe": false,
+    "interpreterDeBug": false,
+    "interpreterHeartBeat": false,
+    "usageDict": {
+      "-h,--help": [
+        "(InLine) Displays This Help Message",
+        "",
+        "* Can Take 1 Argument As Query",
+        "`@C-F.GREEN-h:Message@C-F.WHITE`",
+        "^ Will Display Every String Containing The String \"Message\""
+      ],
+      "-lS,--logStatus": [
+        "(InLine) Flips Current Log Status"
+      ],
+      "-vS,--verStatus": [
+        "(InLine) Flips Current Verbose Status"
+      ],
+      "-vD,--verDebug": [
+        "(InLine) Flips Current Debug Status"
+      ],
+      "-dLOE,--dumpLogOnExit": [
+        "(InLine) Flips Current dumpLogOnExit Status"
+      ],
+      "-dROE,--dumpRegistryOnExit": [
+        "(InLine) Flips Current dumpRegistryOnExit Status"
+      ],
+      "-cF,--configConfigFile": [
+        "(InLine) Takes 1 Input And Will OverRide: -lS -vS -vD"
+      ],
+      "-sI,--startInterpreter": [
+        "(InLine) Starts Alien.interpreter()"
+      ],
+      "-eI,--executeInterpreter": [
+        "(InLine) Takes 1 Input In \"\" And Will Execute",
+        "",
+        "[NOTE: If \"-sI\" Is Active It Will Execute Prior]"
+      ],
+      "-sF.--startFresh": [
+        "(InLine) If True Than All Files In \"logs/\" And \"output/\" Will Be Removed"
+      ],
+      "-cR,--configReset": [
+        "(InLine) If True Than src/alien.json Will Be Confgured Based Off Current Configuration"
+      ],
+      "0xfffa0,terminate,Terminate,TERMINATE,1048480": [
+        "(Interpreter) Terminates The Script"
+      ],
+      "0xfffb0,usage,Usage,USAGE,1048496": [
+        "(Interpreter) Displays Usage"
+      ]
+    },
+    "startInterpreterWithNoArg": true
+  },
+  "textToDisplayConfig": {
+    "F": {
+      "BLACK": "\u001b[30m",
+      "BLUE": "\u001b[34m",
+      "CYAN": "\u001b[36m",
+      "GREEN": "\u001b[32m",
+      "LIGHTBLACK_EX": "\u001b[90m",
+      "LIGHTBLUE_EX": "\u001b[94m",
+      "LIGHTCYAN_EX": "\u001b[96m",
+      "LIGHTGREEN_EX": "\u001b[92m",
+      "LIGHTMAGENTA_EX": "\u001b[95m",
+      "LIGHTRED_EX": "\u001b[91m",
+      "LIGHTWHITE_EX": "\u001b[97m",
+      "LIGHTYELLOW_EX": "\u001b[93m",
+      "MAGENTA": "\u001b[35m",
+      "RED": "\u001b[31m",
+      "RESET": "\u001b[39m",
+      "WHITE": "\u001b[37m",
+      "YELLOW": "\u001b[33m"
+    },
+    "B": {
+      "BLACK": "\u001b[40m",
+      "BLUE": "\u001b[44m",
+      "CYAN": "\u001b[46m",
+      "GREEN": "\u001b[42m",
+      "LIGHTBLACK_EX": "\u001b[100m",
+      "LIGHTBLUE_EX": "\u001b[104m",
+      "LIGHTCYAN_EX": "\u001b[106m",
+      "LIGHTGREEN_EX": "\u001b[102m",
+      "LIGHTMAGENTA_EX": "\u001b[105m",
+      "LIGHTRED_EX": "\u001b[101m",
+      "LIGHTWHITE_EX": "\u001b[107m",
+      "LIGHTYELLOW_EX": "\u001b[103m",
+      "MAGENTA": "\u001b[45m",
+      "RED": "\u001b[41m",
+      "RESET": "\u001b[49m",
+      "WHITE": "\u001b[47m",
+      "YELLOW": "\u001b[43m"
+    },
+    "S": {
+      "BRIGHT": "\u001b[1m",
+      "DIM": "\u001b[2m",
+      "NORMAL": "\u001b[22m",
+      "RESET_ALL": "\u001b[0m"
+    },
+    "M": {
+      "Alien.header": "@C-F.WHITE [@C-F.YELLOWAlien(3.5.5)@C-F.WHITE](@C-F.GREENC:\\Users\\Acer User\\Desktop\\Work\\Programing\\Python\\Al13N\\Al\u0197\u021cN-3-5-50@C-F.WHITE)@:>@C-F.LIGHTCYAN_EX",
+      "Alien.shortHeader": "@C-F.WHITE [@C-F.YELLOWAlien(3.5.5)@C-F.WHITE]@:>@C-F.LIGHTCYAN_EX",
+      "Alien.interpreterTerminate": "@C-F.RED[@C-F.WHITETerminate@C-F.RED] @C-F.WHITE>\t",
+      "Alien.usageCommand": "@C-F.WHITE(Command) ",
+      "Alien.usageLine": "@C-F.GREEN\t",
+      "Alien.blank": "",
+      "Alien.banner": ""
+    },
+    "colorKey": [
+      "@C-",
+      ""
+    ],
+    "messageKey": [
+      "@M-",
+      ""
+    ]
+  }
+}
