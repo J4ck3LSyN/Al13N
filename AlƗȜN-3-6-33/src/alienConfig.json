@@ -1,0 +1,52 @@
+{
+  "root": {
+    "path": "C:/Users/Acer User/Desktop/Work/Programing/Python/Al13N/Al\u0197\u021cN-3-6-33",
+    "conf": "alienConfig.json",
+    "installStatus": false,
+    "installTemplate": null,
+    "modExternal": null,
+    "exceptFailSafe": false,
+    "startInterpreterNoInput": false
+  },
+  "info": {
+    "timeStamp": "Mon May  1 11:51:27 2023"
+  },
+  "float": {
+    "interpreter.registry.root": [],
+    "interpreter.project.root": {},
+    "interpreter.status": false,
+    "interpreter.errorMax": 5,
+    "interpreter.errorCount": 0
+  },
+  "logging": {
+    "status": false,
+    "pipe": [],
+    "path": "logs/$_alien(3-6-33).log",
+    "dumpOnExit": true
+  },
+  "verbose": {
+    "status": true,
+    "level": 2,
+    "pipe": []
+  },
+  "init": {
+    "execute.stdin": [],
+    "execute.path": null
+  },
+  "registry": {
+    "mimimalSegmentLength": 4369,
+    "maximumSegmentLength": 65535,
+    "segmentOffset": 999,
+    "padding": 8
+  },
+  "encoding": {
+    "keymap": {},
+    "minimumRange": 34,
+    "maximumRange": 128,
+    "offset": 999,
+    "padding": 8
+  },
+  "projects": {
+    "lastEdited": null
+  }
+}
